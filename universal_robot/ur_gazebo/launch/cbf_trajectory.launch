@@ -1,0 +1,6 @@
+<launch>
+    <!-- Use package substitution to locate the config file reliably -->
+    <rosparam file="$(find ur_gazebo)/config/cbf_config.yaml" command="load"/>
+
+    <node name="cbf_trajectory_node" pkg="ur_gazebo" type="cbf_trajectory_test.py" output="screen"/>
+</launch>

@@ -1,0 +1,16 @@
+# CBF 컨트롤러 관련 파라미터
+cbf_controller:
+  # 사용할 컨트롤러 이름
+  controller_name: "pos_joint_traj_controller"
+
+  # CBF 알고리즘 파라미터
+  gamma: 1.0  # CBF 제약조건의 강도를 조절하는 게인
+
+  # 장애물 정보 (위치: [x, y, z] meters)
+  # obstacle_pos: [0.2, 0.55, 0.15]
+  obstacle_pos: [0.0, 0.45, 0.2]
+  obstacle_frame: "world"  # 장애물 위치가 표현된 프레임
+
+  # 안전 반경 (meters)
+  robot_radius: 0.05  # 로봇 엔드이펙터의 반경
+  obstacle_radius: 0.15 # 장애물의 반경

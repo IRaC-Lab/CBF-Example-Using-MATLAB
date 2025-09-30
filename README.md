@@ -51,7 +51,7 @@
 ```bash
 roscore
 roslaunch ur_gazebo ur3_pos_bringup.launch
-rosrun ur_gazebo cbf_trajectory_test.py
+rosrun ur_gazebo cbf_trajectory.launch
 ```
 
 ## License

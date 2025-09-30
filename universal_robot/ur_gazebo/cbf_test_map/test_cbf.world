@@ -93,10 +93,10 @@
       <wall_time>1733811931 817941769</wall_time>
       <iterations>143076</iterations>
       <model name='cbf_object'>
-        <pose>0 0.45 0.15 0 -0 0</pose>
+        <pose>0 0.45 0.2 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>0 0.45 0.15 0 -0 0</pose>
+          <pose>0 0.45 0.2 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
